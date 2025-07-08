@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'diamond_sim'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=diamond_sim"
+                ],
+                "filter": {
+                    "name": "diamond_sim",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
